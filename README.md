@@ -17,6 +17,11 @@ Find all instances of class="" or class='' in an html file.
 class=(["'])(?:(?=(\\?))\2.)*?\1
 condensed further: 
 class=(["'])(?:(?=(\\?)).)*?\1
+
+Find all instances of () with or without values inside.
+/(\(([^)]+)\)|\(\))()/g
+
+/[\(\)]/g
 ```
 
 This is a personal reference as I use them I will list further commands.
